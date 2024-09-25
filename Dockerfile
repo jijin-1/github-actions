@@ -11,7 +11,7 @@ COPY . .
 # Install Python and Flask
 RUN apk update && \
     apk add --no-cache python3 py3-pip && \
-    pip3 install -r requirement.txt
+    pip3 install -r requirements.txt
 
 # Expose port
 EXPOSE 5000
